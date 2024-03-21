@@ -11,6 +11,8 @@ namespace CryptoTrading.QueueManager
     {
         static async Task Main(string[] args)
         {
+            await Task.Delay(45000);
+
             var channel = ChannelManager.DeclareQueue("trading");
             var consumer = new EventingBasicConsumer(channel);
 
@@ -25,11 +27,11 @@ namespace CryptoTrading.QueueManager
                 switch (operation.OperationType)
                 {
                     case OperationType.Buy:
-                        RegisterPurchase(operation);
+                        await RegisterPurchase(operation);
                         break;
 
                     case OperationType.Sell:
-                        RegisterSale(operation);
+                        await RegisterSale(operation);
                         break;
                 }
             };
