@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTrading.Buying", "Cry
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTrading.Selling", "CryptoTrading.Selling\CryptoTrading.Selling.csproj", "{D670074D-B367-4A4E-A7AD-7D686153F624}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoTrading.Common", "CryptoTrading.Common\CryptoTrading.Common.csproj", "{93BF1E90-215B-40C8-A7C6-654065BDDF93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTrading.Common", "CryptoTrading.Common\CryptoTrading.Common.csproj", "{93BF1E90-215B-40C8-A7C6-654065BDDF93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoTrading.QueueManager", "CryptoTrading.QueueManager\CryptoTrading.QueueManager.csproj", "{0DF9FC05-F769-4D25-A443-7FFC1616A918}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{93BF1E90-215B-40C8-A7C6-654065BDDF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93BF1E90-215B-40C8-A7C6-654065BDDF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93BF1E90-215B-40C8-A7C6-654065BDDF93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF9FC05-F769-4D25-A443-7FFC1616A918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF9FC05-F769-4D25-A443-7FFC1616A918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF9FC05-F769-4D25-A443-7FFC1616A918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF9FC05-F769-4D25-A443-7FFC1616A918}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
