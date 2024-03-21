@@ -20,7 +20,7 @@ namespace CryptoTrading.Buying
                 var body = Encoding.UTF8.GetBytes(message);
                 channel.Publish("trading", body);
                 Console.WriteLine($"Sent message: {message}");
-                await Task.Delay(new Random().Next(10, 1000));
+                await Task.Delay(new Random().Next(10, 100));
             }
         }
     }
